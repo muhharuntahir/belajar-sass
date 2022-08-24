@@ -1,0 +1,19 @@
+$border-default : 4px solid black;
+$background-utama : #008080;
+$text-putih : white;
+
+.title{
+  background: $background-utama;
+  color: $text-putih;
+  border: {
+    top: $border-default;
+    button : $border-default;
+  }
+  padding: 60px;
+  text-align: center;
+  font-family: sans-serif;
+  .slogan{
+    font-size: 18px;
+    color: $text-putih;
+  }
+}
