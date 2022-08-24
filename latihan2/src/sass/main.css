@@ -1,0 +1,78 @@
+.title {
+  color: teal;
+  text-align: center;
+}
+
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #efefef;
+}
+
+.box {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.warning, .error, .success, .message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.warning {
+  border-color: orange;
+}
+
+.container {
+  width: 100%;
+}
+
+article[role=main] {
+  float: left;
+  width: 62.5%;
+}
+
+aside[role=complementary] {
+  float: right;
+  width: 31.25%;
+}
+
+.bg-red {
+  background: red;
+}
+
+.bg-yellow {
+  background: yellow;
+}
+
+.bg-blue {
+  background: blue;
+}
+
+.bg-teal {
+  background: teal;
+}
+
+.bg-orange {
+  background: orange;
+}
+
+/*# sourceMappingURL=main.css.map */
